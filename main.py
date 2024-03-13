@@ -6,7 +6,6 @@ from st_on_hover_tabs import on_hover_tabs
 st.set_page_config(
     layout="wide",
     page_title="Andres Ruiz",
-    page_icon="logo_full.png",
     initial_sidebar_state="expanded"
 )
 
