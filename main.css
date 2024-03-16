@@ -1,0 +1,16 @@
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 02px;
+    display:inline-block;
+    border: 1px solid #ccc
+}
+
+.button{
+    background-color: #d9593d;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 15px;
+}
