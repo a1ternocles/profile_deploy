@@ -261,6 +261,7 @@ def project():
     </style>
     """
 
+
 # Mostrar el título con estilo CSS
     col1,col2,col3 = st.columns([1,6,1])
     
