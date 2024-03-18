@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as com
-    
+
 
 def load_pdf(filename):
     with open(filename, "rb") as file:
