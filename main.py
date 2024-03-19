@@ -4,6 +4,7 @@ import streamlit.components.v1 as com
 import projects
 import about_me
 import contact
+import webbrowser
 
 st.set_page_config(layout="wide")
 def load_pdf(filename):
@@ -30,13 +31,23 @@ with st.sidebar:
             data= pdf_contents,
             file_name= pdf_file,
             mime='application/pdf',
-            use_container_width=True
+            use_container_width=True,
+            type='primary'
 
         )
+    
+    col1,col2 = st.columns([1,1])
+    with col1:
+        if st.button('🐈‍⬛ GitHub',type='primary'):
+            webbrowser.open('https://github.com/a1ternocles')
+    with col2:
+        if st.button('🖥️ Linkedin',type='primary'):
+            webbrowser.open('https://www.linkedin.com/in/andresruiz94/')
+
     st.markdown("<div style='margin: 25px;' ></div>", unsafe_allow_html=True)
 
     selected = option_menu("Navigation", ["About Me",'Projects','Contact Me'],
-        icons=['people','code','phone'], menu_icon="cast", default_index=1)
+        icons=['people','code','phone'], menu_icon="cast", default_index=0)
     # Define la URL de la imagen y el enlace
 
 if selected == 'About Me':
