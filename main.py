@@ -280,21 +280,22 @@ def project():
     st.markdown("<div style='margin: 100 px;' ></div>", unsafe_allow_html=True)
 
     # Mostrar el título con estilo CSS 
-    
-    col1,col2,col3 = st.columns([1,3,1])
-    with col2:
-        st.markdown('# 🚀 SoyHenry:  Arcol Data Solution')
-    
-    st.markdown("<div style='margin: 100 px;' ></div>", unsafe_allow_html=True)
 
-    st.markdown('''
-                        ##### A binational company with a serious focus on business, we concentrate on the opportunities and potential of your venture. In short periods of time and with exceptional quality, we propel your business to new heights.
-                #####  With a dedicated team of experts, we provide tailored solutions to meet your specific needs, ensuring rapid growth and long-term success. Our commitment to excellence drives every aspect of our work, guaranteeing that your business achieves its full potential.''' )
-    st.markdown("<div style='margin: 50 px;' ></div>", unsafe_allow_html=True)
+    show_content = False
+    if st.button('# 🚀 SoyHenry:  Arcol Data Solution'):
+        show_content = not show_content
 
-    col1,col2,col3 = st.columns([1,9,1])
-    with col2:
-        st.video('https://www.youtube.com/watch?v=BA9xd8gic8I')
+    if show_content:
+        st.markdown('''
+                        ###### A binational company with a serious focus on business, we concentrate on the opportunities and potential of your venture. In short periods of time and with exceptional quality, we propel your business to new heights.
+                ######  With a dedicated team of experts, we provide tailored solutions to meet your specific needs, ensuring rapid growth and long-term success. Our commitment to excellence drives every aspect of our work, guaranteeing that your business achieves its full potential.''' )
+        st.markdown("<div style='margin: 50 px;' ></div>", unsafe_allow_html=True)
+
+        col1,col2,col3 = st.columns([1,9,1])
+        with col2:
+            st.video('https://www.youtube.com/watch?v=BA9xd8gic8I')  
+
+            
 
         
 
