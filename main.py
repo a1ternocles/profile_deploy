@@ -41,7 +41,7 @@ with st.sidebar:
     col1,col2,col3,col4 = st.columns([1,6,6,1])
     with col2:
         if st.button('🐈‍⬛ GitHub',type='secondary'):
-            webbrowser.open('https://docs.google.com/presentation/d/1sFG5Vs5xQt27blU2d-7lPe0ABdNwefQwYjx6rxnpWoM/edit#slide=id.p')
+            webbrowser.open('https://github.com/a1ternocles')
     with col3:
         if st.button('🖥️ Linkedin',type='secondary'):
             webbrowser.open('https://www.linkedin.com/in/andresruiz94/')
