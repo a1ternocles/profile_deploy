@@ -137,7 +137,7 @@ def aboutme():
         & ![Looker Data Studio](https://img.shields.io/badge/-Looker%20Data%20Studio-333333?style=flat&logo=looker).
         - Creation and optimization of IT tools using ![Microsoft Office Suite](https://img.shields.io/badge/-Microsoft%20Office%20Suite-333333?style=flat&logo=microsoft) and ![Google Suite](https://img.shields.io/badge/-Google%20Suite-333333?style=flat&logo=google) for production 
             accounts. Exceeding __Performance__ and __Speed__ on production.
-        - Supervising ___best practices methods__, __KPI’s__ and __organizational 
+        - Supervising __best practices methods__, __KPI’s__ and __organizational 
             development__ on a team of 2 - 3 people.
         - Tool automatization, allowing me to __save 80%__ of my work time and more than __30%__ of team 
             time ''')
