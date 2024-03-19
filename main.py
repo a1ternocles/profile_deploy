@@ -4,10 +4,8 @@ import streamlit.components.v1 as com
 import projects
 import about_me
 import contact
-import footer
 
 st.set_page_config(layout="wide")
-footer.footer()
 def load_pdf(filename):
     with open(filename, "rb") as file:
         pdf_content = file.read()
