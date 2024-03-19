@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as com
 
+st.set_page_config(layout="wide")
 
 def load_pdf(filename):
     with open(filename, "rb") as file:
@@ -261,12 +262,42 @@ def project():
     </style>
     """
 
-
 # Mostrar el título con estilo CSS
     col1,col2,col3 = st.columns([1,6,1])
     
     with col2:
-        st.image('projects.png')  
+        st.image('projects.png') 
+
+    col1,col2 = st.columns([1,1])
+    with col2:
+            st.markdown('''
+                        #####      As a Data engineer and Data Analyst, my work involves designing efficient data pipelines and performing in-depth analysis to extract valuable insights. From building robust architectures to uncovering trends through statistical analysis, my projects aim to drive data-driven decision-making.. 
+                        ##### This section is a short overview about my latest projects.''' )
+    with col1:
+
+        com.iframe('https://lottie.host/embed/d7699c04-5784-4698-8e77-a15cd09f98e4/CdBnEDqZh6.json', height=250)
+
+    st.markdown("<div style='margin: 100 px;' ></div>", unsafe_allow_html=True)
+
+    # Mostrar el título con estilo CSS 
+    
+    col1,col2,col3 = st.columns([1,3,1])
+    with col2:
+        st.markdown('# 🚀 SoyHenry:  Arcol Data Solution')
+    
+    st.markdown("<div style='margin: 100 px;' ></div>", unsafe_allow_html=True)
+
+    st.markdown('''
+                        ##### A binational company with a serious focus on business, we concentrate on the opportunities and potential of your venture. In short periods of time and with exceptional quality, we propel your business to new heights.
+                #####  With a dedicated team of experts, we provide tailored solutions to meet your specific needs, ensuring rapid growth and long-term success. Our commitment to excellence drives every aspect of our work, guaranteeing that your business achieves its full potential.''' )
+    st.markdown("<div style='margin: 50 px;' ></div>", unsafe_allow_html=True)
+
+    col1,col2,col3 = st.columns([1,9,1])
+    with col2:
+        st.video('https://www.youtube.com/watch?v=BA9xd8gic8I')
+
+        
+
 
 if selected == 'About Me':
     aboutme()
