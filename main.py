@@ -14,10 +14,12 @@ def load_pdf(filename):
 
 # 1. as sidebar menu
 with st.sidebar:
-    col1,col2,col3 = st.columns([1,6,1])
-    
+    col1,col2,col3 = st.columns([1,2,1])
     with col2:
-        st.image('Andres.png', width=100,)
+        st.image('Andres.png', width=125)
+
+    col1,col2,col3 = st.columns([1,3,1])
+    with col2:
         st.markdown('''
         * Spanish: Native
         * English: Advance
@@ -36,12 +38,12 @@ with st.sidebar:
 
         )
     
-    col1,col2 = st.columns([1,1])
-    with col1:
-        if st.button('🐈‍⬛ GitHub',type='primary'):
-            webbrowser.open('https://github.com/a1ternocles')
+    col1,col2,col3,col4 = st.columns([1,6,6,1])
     with col2:
-        if st.button('🖥️ Linkedin',type='primary'):
+        if st.button('🐈‍⬛ GitHub',type='secondary'):
+            webbrowser.open('https://docs.google.com/presentation/d/1sFG5Vs5xQt27blU2d-7lPe0ABdNwefQwYjx6rxnpWoM/edit#slide=id.p')
+    with col3:
+        if st.button('🖥️ Linkedin',type='secondary'):
             webbrowser.open('https://www.linkedin.com/in/andresruiz94/')
 
     st.markdown("<div style='margin: 25px;' ></div>", unsafe_allow_html=True)

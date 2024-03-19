@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as com
+import webbrowser
+
 
 def latest_project():
     
@@ -46,7 +48,28 @@ def latest_project():
         st.video('https://www.youtube.com/watch?v=BA9xd8gic8I')
 
 def business():
-    pass
+    
+
+    col1,col2,col3 = st.columns([1,1,1])
+    with col1:
+        st.markdown("<div style='margin: 75px;' ></div>", unsafe_allow_html=True)
+        st.image('collage1.png',width=250)
+        st.markdown("<div style='margin: 15px;' ></div>", unsafe_allow_html=True)
+        st.subheader('💼 Job Assesments')
+        
+        if st.button('Power Point Presentation!'):
+            webbrowser.open('https://docs.google.com/presentation/d/1sFG5Vs5xQt27blU2d-7lPe0ABdNwefQwYjx6rxnpWoM/edit#slide=id.p')
+        
+        if st.button('Dashboard!'):
+            webbrowser.open('https://lookerstudio.google.com/reporting/7eb6720e-ca57-4282-98c6-234d981da03a')
+        
+    with col2:
+        st.markdown("<div style='margin: 75px;' ></div>", unsafe_allow_html=True)
+        st.image('collage2.png',width=250)
+
+    with col3:
+        st.markdown("<div style='margin: 75px;' ></div>", unsafe_allow_html=True)
+        st.image('collage3.png',width=250)
 
 def future():
     st.markdown("<div style='margin: 120px;' ></div>", unsafe_allow_html=True)
