@@ -4,7 +4,10 @@ import streamlit.components.v1 as com
 import projects
 import about_me
 import contact
-import webbrowser
+from selenium import webdriver
+import time
+
+
 
 st.set_page_config(layout="wide")
 def load_pdf(filename):
@@ -41,10 +44,14 @@ with st.sidebar:
     col1,col2,col3,col4 = st.columns([1,6,6,1])
     with col2:
         if st.button('🐈‍⬛ GitHub',type='secondary'):
-            webbrowser.open('https://github.com/a1ternocles')
+            
+            driver = webdriver.Chrome()
+            driver.get('https://github.com/a1ternocles')
     with col3:
         if st.button('🖥️ Linkedin',type='secondary'):
-            webbrowser.open('https://www.linkedin.com/in/andresruiz94/')
+            
+            driver = webdriver.Chrome()
+            driver.get('https://www.linkedin.com/in/andresruiz94/')
 
     st.markdown("<div style='margin: 25px;' ></div>", unsafe_allow_html=True)
 
