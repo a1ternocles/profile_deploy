@@ -39,11 +39,11 @@ with st.sidebar:
 
         )
     
-    col1,col2,col3,col4 = st.columns([1,6,6,1])
+    col1,col2,col3,col4 = st.columns([2,5,5,2])
     with col2:
         st.markdown("[🐈‍⬛ Github!](https://github.com/a1ternocles)")
     with col3:            
-        st.markdown("[🖥️ Linkedin!]('https://www.linkedin.com/in/andresruiz94/')")
+        st.markdown("[🖥️ Linkedin!](https://www.linkedin.com/in/andresruiz94/)")
 
     st.markdown("<div style='margin: 25px;' ></div>", unsafe_allow_html=True)
 
