@@ -26,7 +26,7 @@ with st.sidebar:
         * English: Advance
         * Portugues: Mid ''')
 
-        pdf_file ='Andres Ruiz Resume DE.pdf'
+        pdf_file ='Andres Ruiz Resume DS.pdf'
         pdf_contents = load_pdf(pdf_file)
 
         st.download_button(

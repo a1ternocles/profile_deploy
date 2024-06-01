@@ -79,7 +79,6 @@ def business():
         st.markdown("[Repository!](https://github.com/a1ternocles/Henry-Analytics)")
         st.markdown("[Power BI Dashboard!](https://app.powerbi.com/view?r=eyJrIjoiNmQ2ZWVlZjktYzM4Zi00MGI0LThjZDAtYTllOGQ1OGI2Nzk1IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9)")
 
-
 def future():
     st.markdown("<div style='margin: 120px;' ></div>", unsafe_allow_html=True)
 
@@ -128,13 +127,13 @@ def project():
     col1,col2 = st.columns([1,1])
     with col2:
             st.markdown('''
-	As a Data engineer and Data Analyst, my work involves designing efficient data pipelines and performing in-depth analysis to extract 	valuable insights.
-	
-	- Robust Architectures
-	- Statistical Analysis
-	- Data-driven
-	- Decision-making
-	''')
+	As a Data Scientist and Analyst, my role encompasses designing efficient data pipelines and conducting comprehensive analyses to derive valuable insights.
+
+    - Advanced Algorithms
+    - Statistical Modeling
+    - Insight-driven
+    - Decision Support
+	''',True)
     with col1:
 
         com.iframe('https://lottie.host/embed/d7699c04-5784-4698-8e77-a15cd09f98e4/CdBnEDqZh6.json', height=250)

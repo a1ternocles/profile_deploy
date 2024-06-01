@@ -29,8 +29,8 @@ def aboutme():
 
     with col1:
         st.markdown('''
-                    ##### I'm a Data Engineer passionate about Database Management Systems (DBMS), data analysis, and Machine Learning. 
-                    ##### Committed to continuous learning in Automations, Data Lake, Statistical Methods, and Cybersecurity.''' )
+                    ##### I'm a Data Scientist passionate about Database Management Systems (DBMS), Data analysis, and Machine Learning. 
+                    ##### Committed to continuous learning in Automations(RPAs), Data Tools, Advance Statistical Methods and AI APIs.''' )
     with col2:
 
         com.iframe('https://lottie.host/embed/e68840a7-c28b-490f-9457-1750db8b52bc/koQHy36OjP.json', height=250)
@@ -53,9 +53,12 @@ def aboutme():
     with col2:
         com.iframe('https://lottie.host/embed/7a0ba435-814b-4ae0-b99c-c77fb9fd4550/cAWva9oadU.json', width=110)
         st.markdown('''
-        ![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-333333?style=flat&logo=apache-spark)
-        ![PySpark](https://img.shields.io/badge/-PySpark-333333?style=flat&logo=apache-spark)
-                    ''')
+        ![NLTK](https://img.shields.io/badge/-NLTK-333333?style=flat&logo=nltk)
+        ![TextBlob](https://img.shields.io/badge/-TextBlob-333333?style=flat&logo=textblob)
+        ![Selenium](https://img.shields.io/badge/-Selenium-333333?style=flat&logo=selenium)
+        ![Requests](https://img.shields.io/badge/-Requests-333333?style=flat&logo=requests)
+        ![BeautifulSoup](https://img.shields.io/badge/-BeautifulSoup-333333?style=flat&logo=beautifulsoup)
+            ''')
     
     with col3:
         com.iframe('https://lottie.host/embed/2146b27b-17e5-47af-993e-a3da16ba458f/TrSxeghbvl.json', width=110)
@@ -74,7 +77,7 @@ def aboutme():
         st.markdown('''
         ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter_Notebook-333333?style=flat&logo=jupyter)
         ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-        ![Microsoft Azure](https://img.shields.io/badge/-Microsoft%20Azure-333333?style=flat&logo=microsoft-azure)
+        ![Microsoft Fabric](https://img.shields.io/badge/-Microsoft%20Fabric-333333?style=flat&logo=microsoft)
         ![PowerBI](https://img.shields.io/badge/-PowerBI-333333?style=flat&logo=powerbi)
         ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-333333?style=flat&logo=visual%20studio%20code&logoColor=white)
         ![Google Suite](https://img.shields.io/badge/-Google%20Suite-333333?style=flat&logo=google)
@@ -95,14 +98,13 @@ def aboutme():
         com.iframe('https://lottie.host/embed/ad49855b-1b31-46b5-b3ba-de144172b980/UDQNP9jZrf.json', height=250)
 
     with col2:
-        st.subheader('🦾 Data Engineering')
+        st.subheader('🦾 Data Scientist')
         st.markdown('''
-        - __Design and creation__ of a smart download process using ![Microsoft Azure](https://img.shields.io/badge/-Microsoft%20Azure-333333?style=flat&logo=microsoft-azure)
-                    __increasing 50%__ efectiveness and __reducing 20%__ usage of machine resources.
-        - Creation of an __Automated connection structure__ between __local and cloud__. Allowing to work easily with new incoming data.
-        - Tools Usage: ![Apache Spark](https://img.shields.io/badge/-Apache%20Spark-333333?style=flat&logo=apache-spark) ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
-        ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy) ![Python](https://img.shields.io/badge/Python-333333?style=flat&logo=python) ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql) to ETL. 
-         __Save Up to 70%__ of cloud storage by using __.parquet__ format''')
+        - Analysis project involving the use of __Sentiment Analysis Models__ and ![TextBlob](https://img.shields.io/badge/-TextBlob-333333?style=flat&logo=textblob)
+            ![Wordcloud](https://img.shields.io/badge/-Wordcloud-333333?style=flat&logo=wordcloud) to correlate company productivity with customer comments and sentiments.
+        - Designing a root-cause analysis structure that enhances the identification of gaps within the production team. 
+            This fosters the development of the team's learning curve by leveraging a correlation system between customer satisfaction and internal QA.
+        ''')
 
     st.markdown("<div style='margin: 50px;' ></div>", unsafe_allow_html=True)
 
@@ -113,14 +115,13 @@ def aboutme():
         com.iframe('https://lottie.host/embed/61eaa909-466b-4f9a-a31d-956e8311da89/vK6VUUGwJ2.json', height=250)
 
     with col1:
-        st.subheader('🛢 Data Base Manager')
+        st.subheader('🛢 Database Experience')
         st.markdown('''
-        - __Design and creation__ of a standardized company database, streamlining data management and 
-            utilization.
-        - Establishing database connections with multiple __low-cost tools__, resulting in a monthly cost reduction 
-            of $500 US.
-        - Leveraging SQL and No-SQL databases creatively, leading to a __75% annual increase__ in 
-            company-client interaction and profit. ''')
+        - __Design and creation__ of a smart download process using ![Python](https://img.shields.io/badge/Python-333333?style=flat&logo=python) algorithm
+                    __increasing 50%__ efectiveness and __reducing 20%__ usage of machine resources.
+        - Creation of an __Automated connection structure__ between __local and cloud__. Allowing to work easily with new incoming data.
+        - Tools Usage: ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas) ![Numpy](https://img.shields.io/badge/-Numpy-333333?style=flat&logo=numpy) ![Python](https://img.shields.io/badge/Python-333333?style=flat&logo=python) ![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql) to ETL. 
+         __Save Up to 70%__ of cloud storage by using __.parquet__ format''')
 
     st.markdown("<div style='margin: 50px;' ></div>", unsafe_allow_html=True)
     col1,col2 = st.columns([1,1])
